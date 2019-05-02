@@ -4,10 +4,14 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <spring:url var="css" value="/resources/css"/>
+
 <spring:url var="js" value="/resources/js"/>
+
 <spring:url var="images" value="/resources/images"/>
 
-<c:set var ="contextRoot" value="${pageContext.request.contextPath} "/>
+<c:set var="contextRoot" value=" ${pageContext.request.contextPath} "/>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -248,9 +252,10 @@
     <!-- /.container -->
 
     <!-- JavaScript -->
-    <script src="${js} } /jquery.js"></script>
-    <script src="${js} }/bootstrap.js"></script>
+    <script src="${js}/jquery.js"></script>
+    <script src="${js}/bootstrap.js"></script>
 
 </body>
 
 </html>
+
