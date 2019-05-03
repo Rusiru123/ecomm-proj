@@ -1,6 +1,4 @@
- 
-  
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+ <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -9,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="${contextRoot}/home">Start Bootstrap</a>
+                <a class="navbar-brand" href="${contextRoot}/home">E hub mart</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,7 +15,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="${contextRoot}/about">About</a>
                     </li>
-                    <li><a href="${contextRoot}/listProducts">View Products</a>
+                    <li><a href="${contextRoot}/listProducts">Product List</a>
                     </li>
                     <li><a href="${contextRoot}/contact">Contact</a>
                     </li>
@@ -27,3 +25,4 @@
         </div>
         <!-- /.container -->
     </nav>
+ 
