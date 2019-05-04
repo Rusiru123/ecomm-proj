@@ -12,6 +12,13 @@
   	<spring.version>5.1.1.RELEASE</spring.version>
   </properties>
   <dependencies>
+  			<!-- Link the backend project to the front end -->
+  			<dependency>
+  				 <groupId>net.paf</groupId>
+                 <artifactId>ecommbackend</artifactId>
+                 <version>0.0.1-SNAPSHOT</version>
+  			</dependency>
+  
   		<!-- JAVA EE API -->
   			<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
     <dependency>

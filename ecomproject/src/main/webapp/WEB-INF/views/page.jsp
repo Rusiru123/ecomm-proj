@@ -45,13 +45,9 @@
    	  
    	  <!-- Load when click About  -->
    	 
-   	  	<%@include file="about.jsp" %>    
+  
    	  
-   	  
-   	  
-   	 
-   	  	<%@include file="contact.jsp" %>    
-   	  
+   	   <%@include file="listProducts.jsp" %>
    	  
    	  
    
