@@ -14,7 +14,7 @@
    >
    
    <context:component-scan base-package = "net.paf.ecomproject.controller"/>
-   <context:component-scan base-package = "net.paf.ecommbackend.daoimpl"/>
+   <context:component-scan base-package = "net.paf.ecommbackend"/>
    
    <bean id = "viewResolver"
       class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class HibernateConfig {
 	
 	private final static String DATABASE_URL = "jdbc:h2:tcp://localhost/~/ecomproject";
-	private final static String DATABASE_DRIVER = " org.h2.Driver";
+	private final static String DATABASE_DRIVER =  "org.h2.Driver";
 	private final static String DATABASE_DIALECT = "org.hibernate.dialect.H2Dialect";
 	private final static String DATABASE_USERNAME = "sa";
 	private final static String DATABASE_PASSWORD = "";
@@ -48,7 +48,7 @@ public class HibernateConfig {
 		builder.addProperties(getHibernateProperties());
 		builder.scanPackages("net.paf.ecommbackend.dto");
 		
-		return builder.buildSessionFactory();
+ 		return builder.buildSessionFactory();
 	}
 
 	
